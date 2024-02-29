@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* In your CSS file */
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.loading-dots {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.loading-dots span {
+  border: 1px solid white;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  /* Set your desired color */
+  margin-right: 5px;
+  animation: blink 1.5s infinite;
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.loading-dots span:nth-child(3) {
+  animation-delay: 1s;
+}

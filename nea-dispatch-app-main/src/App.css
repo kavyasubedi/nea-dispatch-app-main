@@ -1,0 +1,570 @@
+/* .NavBar {
+  color: red;
+  background-color: #15171d;
+  height: 40px;
+  width: 83.5vw;
+  margin: 0;
+  padding: 0;
+} */
+
+
+.primaryButton {
+  background-color: #010445;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #010445;
+  display: inline;
+}
+
+.primaryButton:hover {
+  background-color: #ffffff;
+  color: #010445;
+  border: 1px solid #010445;
+  transition: 0.2s ease-in-out;
+
+}
+
+.secondaryButton {
+  background-color: #5c636a;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #5c636a;
+  display: inline;
+}
+
+.secondaryButton:hover {
+  background-color: #ffffff;
+  color: #5c636a;
+  border: 1px solid #5c636a;
+  transition: 0.2s ease-in-out;
+
+}
+
+.submitButton {
+  background-color: #367b39;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #367b39;
+  min-height: 40px;
+}
+
+.submitButton:hover {
+  background-color: #ffffff;
+  color: #367b39;
+  border: 1px solid #ffd900;
+  transition: 0.2s ease-in-out;
+}
+
+.resetButton {
+  background-color: #802020;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #802020;
+  display: inline;
+}
+
+.resetButton:hover {
+  background-color: #ffffff;
+  color: #802020;
+  border: 1px solid #802020;
+  transition: 0.2s ease-in-out;
+}
+
+.warningButton {
+  background-color: #cca60d;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #cca60d;
+  display: inline;
+}
+
+.warningButton:hover {
+  background-color: #ffffff;
+  color: #cca60d;
+  border: 1px solid #cca60d;
+  transition: 0.2s ease-in-out;
+
+}
+
+
+.customizedLabel {
+  color: #252864;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.customizedLabel_lg {
+  color: #252864;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.customizedLabel_sm {
+  color: #909090;
+  font-size: 10px;
+}
+
+.customNavsTabs {
+  border-bottom: 4px solid #c7c8e7;
+}
+
+
+
+
+.graphContainer {
+  width: 100%;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 5px 5px 17px #dfdfdf,
+    -5px -5px 17px #ffffff;
+}
+
+.fileListCard {
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  border: transparent 2px solid;
+}
+
+.fileListCard:hover {
+  background-color: #e9efff;
+  border: #576fd6 solid 2px;
+  transition: ease-in-out 0.3s;
+}
+
+.generalIcon {
+  height: 50px;
+  width: 50px;
+  color: #0104452a;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  /* Adjust the width as needed */
+  height: 87.8vh;
+  /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* Remove the iframe border */
+}
+
+
+
+/* react horizontally scrollable table css */
+.customDatatable {
+  width: 100%;
+  overflow-x: hidden;
+  /* Ensures table takes up the full width of its parent */
+}
+
+.customDatatable th:first-child {
+  background-color: #dadbf7;
+  border-top-left-radius: 10px;
+}
+
+.customDatatable th:last-child {
+  background-color: #dadbf7;
+  border-top-right-radius: 10px;
+}
+
+td,
+th {
+  white-space: nowrap;
+  border-bottom: 0.1rem solid #e1e1e1;
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+}
+
+.paginateButton {
+  margin-top: 24px;
+  min-height: 20px;
+  min-height: 20px;
+  background-color: #010445;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  border: 1px solid #010445;
+  transition: ease-in-out 0.2s;
+}
+
+.paginateButton:hover,
+.active {
+  background-color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #010445;
+  font-weight: 600;
+  border: 1px solid #010445;
+  transition: ease-in-out 0.2s;
+}
+
+
+/* login page customization */
+.loginCover {
+  border: 1px solid #c7c7c7;
+  background: #ffffffac;
+  border-radius: 30px;
+}
+
+.loginContainer {
+  border: 1px solid #c7c7c7;
+  background: #ffffffac;
+  border-radius: 30px;
+  padding: 2%;
+  height: 100%;
+}
+
+.loginBackground {
+  height: 100vh;
+  padding: 5%;
+}
+
+.loginButton {
+  background-color: #3B1E54;
+  border: 1px solid #3B1E54;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.loginButton:hover {
+  background-color: #ffffff;
+  color: #3B1E54;
+  border: 1px solid #3B1E54;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.loginHeader {
+  margin: 8% 0%;
+}
+
+.loginHeader h3 {
+  color: #3B1E54;
+  font-weight: 700;
+}
+
+.ant-layout-sider-children {
+  background-color: #010445;
+}
+
+.ant-menu {
+  background-color: #010445;
+}
+
+/* .ant-menu-item {}
+
+.ant-menu-item:hover {} */
+
+.ant-menu-item.ant-menu-item-selected {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .summaryBorder {
+    border-right: 1px solid #c7c8e7;
+  }
+
+  .summaryBorderFirst {
+    border-right: 1px solid #c7c8e7;
+    height: 100%;
+  }
+}
+
+.twentyPercentWidth {
+  width: 30%;
+}
+
+.fourtyPercent {
+  width: 35%;
+}
+
+
+@media (max-width: 1200px) {
+  .summaryBorder {
+    border-top: 1px solid #c7c8e7;
+    margin-top: 16px;
+  }
+
+  .summaryBorderEnd {
+    border-top: 1px solid #c7c8e7;
+    margin-top: 16px;
+  }
+}
+
+/* to override sidebar menu items */
+.ps-menuitem-root>a.ps-menu-button:hover {
+  background-color: #6f42c1 !important;
+}
+
+.paginateButton:hover,
+.active {
+  background-color: #6f42c1 !important;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+.approveCheck {
+  color: #367b39;
+  background-color: transparent;
+  border: 1px solid #367b39;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+  transition: ease-in-out 0.2s;
+}
+
+.approveCheck:hover {
+  color: #ffffff;
+  background-color: #367b39;
+  border: 1px solid #367b39;
+  transition: ease-in-out 0.2s;
+}
+
+.rejectClose {
+  color: #802020;
+  background-color: transparent;
+  border: 1px solid #802020;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+  transition: ease-in-out 0.2s;
+}
+
+.rejectClose:hover {
+  color: #ffffff;
+  background-color: #802020;
+  border: 1px solid #802020;
+  transition: ease-in-out 0.2s;
+}
+
+.primaryClose {
+  color: #010445;
+  background-color: transparent;
+  border: 1px solid #010445;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+  transition: ease-in-out 0.2s;
+}
+
+.primaryClose:hover {
+  color: #ffffff;
+  background-color: #010445;
+  border: 1px solid #010445;
+  transition: ease-in-out 0.2s;
+}
+
+
+
+/* .nextPrevButton.disabled {
+  background-color: #010445;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #010445;
+  display: inline;
+} */
+
+.nextPrevButton {
+  background-color: #010445;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid #010445;
+  display: inline;
+}
+
+.nextPrevButton:hover {
+  background-color: #ffffff;
+  color: #010445;
+  border: 1px solid #010445;
+  transition: 0.2s ease-in-out;
+
+}
+
+.divider {
+  text-align: center;
+}
+
+.divider:before,
+.divider:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.divider:before {
+  background: linear-gradient(to right, transparent, #818078);
+  right: .5em;
+  margin-left: -50%;
+}
+
+.divider:after {
+  background: linear-gradient(to right, #818078, transparent);
+  left: .5em;
+  margin-right: -50%;
+}
+
+.filtered-routes {
+  position: fixed;
+  right: 2%;
+  top: 8%;
+  z-index: 999999;
+  background-color: rgb(244, 244, 244);
+  padding: 8px;
+  border-radius: 10px;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+/* Hide the default scrollbar */
+.filtered-routes::-webkit-scrollbar {
+  width: 8px;
+  /* Adjust the width for the scrollbar */
+}
+
+/* Track */
+.filtered-routes::-webkit-scrollbar-track {
+  background: transparent;
+  /* Change the background color of the track if needed */
+}
+
+/* Handle */
+.filtered-routes::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Color for the scrollbar */
+  border-radius: 10px;
+  /* Make it rounded */
+}
+
+.searchResult {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+}
+
+.searchResult:hover {
+  background-color: #010445;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+}
+
+.searchResultText {
+  color: #000000;
+  transition: ease-in-out 0.2s;
+}
+
+
+.searchResult:hover {
+  background-color: #010445;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+}
+
+.searchResult:hover .searchResultText {
+  color: #ffffff;
+  transition: ease-in-out 0.2s;
+}
+
+
+.blueDotted {
+  border: 1px dashed #198754;
+  height: 100%;
+  background-color: #d5d6e0;
+}
+
+.yellowDotted {
+  border: 1px dashed #ffee00;
+  height: 100%;
+  background-color: #fffadb
+}
+
+.greenDotted {
+  border: 1px dashed #198754;
+  height: 100%;
+  background-color: #d3e8de
+}
+
+.redDotted {
+  border: 1px dashed #ec2b2a;
+  height: 100%;
+  background-color: #ec35352e
+}
+
+.contentContainer {
+  margin: 1%;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* scroll bar */
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  /* Overall scrollbar width */
+  height: 8px;
+  /* Overall scrollbar height (vertical or horizontal) */
+}
+
+/* For other browsers */
+scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Style track for both Webkit and other browsers */
+::-webkit-scrollbar-track,
+scrollbar-track {
+  background-color: #f5f5f5;
+  /* Light grey background */
+  border-radius: 4px;
+  /* Rounded corners for track */
+}
+
+/* Style thumb for both Webkit and other browsers */
+::-webkit-scrollbar-thumb,
+scrollbar-thumb {
+  background-color: #cccccc;
+  /* Light grey thumb color */
+  border-radius: 4px;
+  /* Rounded corners for thumb */
+}
+
+/* scroll bar */
+
+
+.checkAddDisabled {
+  background-color: #e6e6e6;
+}
+
+
+
